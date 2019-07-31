@@ -18,5 +18,7 @@ public class App
         databaseMetaDataDemo.dBMetaData();
         ResultSetMetaDataDemo resultSetMetaDataDemo=new ResultSetMetaDataDemo();
         resultSetMetaDataDemo.resultMetaData();
+        RowSetDemo rowSetDemo=new RowSetDemo();
+        rowSetDemo.getData();
     }
 }
